@@ -42,11 +42,11 @@
     --xl: 48px;
     --xxl: 76px;
     /* ------------COLOR------------ */
-    --color-primary: red;
+    --color-primary: rgb(255, 94, 0);
     --color-secondary: lightgreen;
     --color-basic: rgb(139, 139, 139);
     --color-regular: lightblue;
-    --color-dark: rgb(1, 17, 1);
+    --color-dark: #0C0B0B;
 }
 
 /* ----------------FONT-FAMILI'S-COMMON-CLASSES-START---------------- */
@@ -86,3 +86,89 @@
 }
 
 /* ---------------------FONT-WEIGHT-CLASS'S-END--------------------- */
+
+/* ----------------------------TYPOGRAPHY---------------------------- */
+.h-calc-100vh {
+    min-height: calc(100vh - 56px);
+}
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.hero-bg-img {
+    background-image: url("../image/png/big-white-roudmoon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 0;
+}
+
+body {
+    background: var(--color-dark);
+}
+
+.main-heading {
+    font-size: var(--xxl);
+    color: var(--color-primary);
+    font-family: var(--ff-primary);
+}
+
+.main-heading+p {
+    color: var(--color-primary);
+    font-weight: 800;
+    font-size: var(--basic);
+    font-family: var(--ff-primary);
+    max-width: 50.55%;
+}
+
+.glass-effect {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.5) 1.97%, rgba(255, 255, 255, 0) 103.14%);
+    border-radius: 10px;
+}
+
+img.object {
+    border-radius: 22px;
+}
+
+main section h2 {
+    font-family: var(--ff-secondary);
+    font-size: var(--lg);
+    font-weight: 900;
+}
+
+@media (min-width:991.98px) {
+    .lg-positioning {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+    .position-lg-absolute {
+        position: absolute;
+    }
+
+    .w-lg-50 {
+        width: 50%;
+    }
+}
+
+@media (max-width:992px) {
+    .object {
+        object-fit: cover;
+        -o-object-fit: cover;
+        height: 100%;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        /* ------------FONT-SIZES------------ */
+        --regular: 16px;
+        --basic: 18px;
+        --madiun: 24px;
+        --lg: 32px;
+        --xl: 48px;
+        --xxl: 38px;
+    }
+
+}
