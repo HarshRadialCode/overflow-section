@@ -7,3 +7,77 @@
     scroll-behavior: smooth;
     transition: all 250ms ease-in-out;
 }
+
+@font-face {
+    font-family: 'balsamiq';
+    src: url("../fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dancing";
+    src: url("../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Hindi-madurai";
+    src: url("../fonts/Hind_Madurai/HindMadurai-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Syne-mono";
+    src: url("../fonts/Syne_Mono/SyneMono-Regular.ttf");
+}
+
+:root {
+    /* ------------FONT-FAMILIES------------ */
+    --ff-primary: "balsamiq";
+    --ff-secondary: "Dancing";
+    --ff-ragular: "Hindi-madurai";
+    --ff-basic: "Syne-mono";
+    /* ------------FONT-SIZES------------ */
+    --regular: 16px;
+    --basic: 18px;
+    --madiun: 24px;
+    --lg: 32px;
+    --xl: 48px;
+    --xxl: 76px;
+    /* ------------COLOR------------ */
+    /* --color-basic: ;
+    --color-regular: ;
+    --color-primary: ;
+    --color-secondary: ;
+    --color-dark: ; */
+}
+
+.ff-primary {
+    font-family: var(--ff-primary);
+}
+
+.ff-secondary {
+    font-family: var(--ff-secondary);
+}
+
+.ff-regular {
+    font-family: var(--ff-regular);
+}
+
+.ff-basic {
+    font-family: var(--ff-basic);
+}
+
+/* ---------------------FONT-WEIGHT--------------------- */
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-regular {
+    font-weight: 400;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.fw-black {
+    font-weight: 900;
+}
