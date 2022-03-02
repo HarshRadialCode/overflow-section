@@ -49,6 +49,7 @@
     --color-dark: rgb(1, 17, 1);
 }
 
+/* ----------------FONT-FAMILI'S-COMMON-CLASSES-START---------------- */
 .ff-primary {
     font-family: var(--ff-primary);
 }
@@ -65,7 +66,9 @@
     font-family: var(--ff-basic);
 }
 
-/* ---------------------FONT-WEIGHT--------------------- */
+/* ----------------FONT-FAMILI'S-COMMON-CLASSES-END---------------- */
+
+/* ---------------------FONT-WEIGHT-CLASS'S-START--------------------- */
 .fw-light {
     font-weight: 300;
 }
@@ -81,3 +84,5 @@
 .fw-black {
     font-weight: 900;
 }
+
+/* ---------------------FONT-WEIGHT-CLASS'S-END--------------------- */
