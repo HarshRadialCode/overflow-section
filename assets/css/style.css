@@ -42,11 +42,11 @@
     --xl: 48px;
     --xxl: 76px;
     /* ------------COLOR------------ */
-    /* --color-basic: ;
-    --color-regular: ;
-    --color-primary: ;
-    --color-secondary: ;
-    --color-dark: ; */
+    --color-primary: red;
+    --color-secondary: lightgreen;
+    --color-basic: rgb(139, 139, 139);
+    --color-regular: lightblue;
+    --color-dark: rgb(1, 17, 1);
 }
 
 .ff-primary {
