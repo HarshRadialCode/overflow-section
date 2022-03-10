@@ -136,6 +136,18 @@ main section h2 {
     font-weight: 900;
 }
 
+.post-slider,
+.yello-bg {
+    background: rgba(255, 217, 0, 0.747);
+    height: 50%;
+}
+
+.post {
+    margin: auto 20px;
+    background: linear-gradient(94.88deg, rgba(3, 3, 3, 0.5) 1.97%, rgba(5, 5, 5, 0) 103.14%);
+    border-radius: 10px;
+}
+
 @media (min-width:991.98px) {
     .lg-positioning {
         top: 50%;
